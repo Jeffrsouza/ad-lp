@@ -1,0 +1,150 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.container>h4 {
+    font-family: 'DegularTextRegular';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: 'DegularTextRegular';
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    padding: 5rem 6rem 0 6rem;
+    flex-wrap: wrap;
+    flex-grow: 0;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    max-width: 98vw;
+}
+
+.label {
+    font-family: 'DegularTextRegular';
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0.07em;
+    margin-left: 1rem;
+}
+
+.input{
+    outline: none !important;
+    border-radius: 20px;
+    border: 2px solid var(--white);
+    background-color: var(--gray-800);
+
+    font-family: 'DegularTextRegular';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    padding: 1.5rem 1.2rem;
+} 
+
+.textarea {
+    outline: none !important;
+    border-radius: 20px;
+    border: 2px solid var(--white);
+    background-color: var(--gray-800);
+
+    font-family: 'DegularTextRegular';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    padding: 1.5rem 1.2rem;
+}
+
+.input:focus {
+    border: 2px solid var(--orange-500);
+    color: var(--orange-500);
+}
+
+.itemMsg {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.textarea {
+    resize: none;
+    height: 300px;
+    width: 100%;
+}
+
+.textarea:focus {
+    border: 2px solid var(--orange-500);
+    color: var(--orange-500);
+}
+
+.container>button {
+    border: none;
+    background-color: var(--orange-500);
+    border-radius: 60px;
+    margin-top: 2rem;
+    bottom: 5rem;
+    padding: .8rem 6rem;
+
+    font-family: 'DegularTextRegular';
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0.04em;
+
+}
+
+@media(max-width:1000px){
+    .content{
+        padding: 5rem 1rem 0 1rem;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .item > div{
+        width: 100%;
+    }
+
+    .label {
+        font-size: 20px;
+    }
+    
+    .input{
+        font-size: 28px;
+        text-align: left;
+        padding: .6rem .6rem;
+        width: 100%;
+    } 
+    
+    .textarea {
+        font-size: 28px;
+        text-align: left;
+        padding: .6rem .6rem;
+    }
+}

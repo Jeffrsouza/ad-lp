@@ -1,0 +1,151 @@
+.container {
+    background: var(--gray-900);
+    padding: 2.5rem;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--orange-tr-500);
+    border-radius: 5rem;
+    height: 7rem;
+    justify-content: space-around;
+    white-space: normal
+}
+
+.link {
+    height: 45.9px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid transparent;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link:hover {
+    border: 1px solid var(--orange-500);
+    border-radius: 22.95px;
+}
+
+.login {
+    border: none;
+    background-color: transparent;
+    height: 45.9px;
+    display: flex;
+    align-items: center;
+}
+
+.sign {
+    border: none;
+    width: 131.05px;
+    height: 45.9px;
+    background-color: var(--orange-500);
+    border-radius: 22.95px;
+}
+
+.content>div>hr {
+    margin: 0 1.5rem;
+}
+
+.content>div {
+    display: flex;
+}
+
+.content span {
+    font-family: 'DegularTextRegular';
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--white);
+}
+
+@media(max-width:1000px) {
+    .content span {
+        font-size: 1rem;
+        line-height: 15px;
+    }
+
+    .content>div>hr {
+        margin: 0 1rem;
+    }
+
+    .sign {
+        border: none;
+        width: 100px;
+        height: 45.9px;
+        background-color: var(--orange-500);
+        border-radius: 22.95px;
+    }
+
+    .link {
+        height: 45.9px;
+        padding: .5rem;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+
+@media(max-width:820px) {
+    .container {
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        width: 100%;
+    }
+
+    .iconClose {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid var(--orange-tr-500);
+        padding: 2rem 4rem;
+        height: auto;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .content>div {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .content>div>hr {
+        display: none;
+    }
+
+    .link {
+        width: 200px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content span {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.03em;
+    }
+
+    .sign {
+        border: none;
+        width: 131.05px;
+        height: 45.9px;
+        background-color: var(--orange-500);
+        border-radius: 22.95px;
+    }
+
+}

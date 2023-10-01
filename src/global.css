@@ -1,0 +1,86 @@
+:root {
+    --white: #FFF;
+    --black: #000;
+
+
+    --gray-500: #6A6D6A;
+    --gray-600: #787878;
+    --gray-800: #181818;
+    --gray-900: #141414;
+
+    --orange-500: #F66A04;
+
+    --orange-tr-500: rgba(246, 106, 4, 0.3);
+
+    --orange-gradient: #F66A04, #F99A56, #FBC298, #FFFFFF;
+
+
+}
+
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--gray-800);
+    color: var(--white);
+    -webkit-font-smoothing: antialiased;
+}
+
+
+body,
+input,
+textarea,
+button {
+    color: var(--white);
+}
+
+button {
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'DegularBold';
+    /*, sans-serif;*/
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 98px;
+    letter-spacing: 0.04em;
+
+    background: linear-gradient(270deg, #F66A04 -17.19%, #F99A56 17.62%, #FBC298 50.67%, #FFFFFF 76.22%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'DegularBold';
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 81px;
+    letter-spacing: 0.04em;
+}
+
+h4 {
+    font-family: 'DegularTextLight';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0.04em;
+    text-align: left;
+
+}
+
+@media(max-width:900px) {
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}

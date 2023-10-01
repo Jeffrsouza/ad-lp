@@ -1,0 +1,146 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.container>h4 {
+    font-family: 'DegularTextRegular';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: 'DegularTextRegular';
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    gap: 5rem;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    min-height: 400px;
+
+    background-color: var(--black);
+    border-radius: 46px;
+    border: 0.92px solid var(--orange-500);
+    width: 80vw;
+    padding: 2.7rem 5rem 5rem 3rem;
+}
+
+.card>div>h2 {
+    font-family: 'DegularBold';
+    font-size: 48px;
+    line-height: 91px;
+    letter-spacing: 0.04em;
+}
+
+.card>div>span {
+    font-family: 'DegularTextRegular';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.07em;
+    text-align: left;
+}
+
+.cardRight {
+    display: flex;
+}
+
+.cardRight>img {
+    position: absolute;
+    bottom: -2rem;
+    right: -5rem;
+    width: 30rem;
+}
+
+.cardRight>div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 250px;
+}
+
+.cardLeft {
+    display: flex;
+}
+
+.cardLeft>img {
+    position: absolute;
+    bottom: -2rem;
+    left: -5rem;
+    width: 30rem;
+}
+
+.cardLeft>div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+}
+
+.moreAbout {
+    font-family: 'DegularTextRegular';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: var(--orange-500);
+    align-self: flex-end;
+}
+
+@media (max-width:850px) {
+    .container{
+    padding-top: 2rem;
+    }
+    .content {
+        gap: 2rem;
+    }
+
+    .card {
+        width: 95vw;
+    }
+
+    .cardLeft>img {
+        display: none;
+    }
+
+    .cardLeft>div {
+        margin-left: 0;
+    }
+
+    .cardRight>img {
+        display: none;
+    }
+
+    .cardRight>div {
+        margin-right: 0;
+    }
+
+    .card>div>h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 1rem 0;
+    }
+
+    .card>div>span {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.07em;
+        text-align: left;
+    }
+}

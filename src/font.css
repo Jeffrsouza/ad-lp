@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'DegularBlak';
+    src: local('DegularBlack'), url('./assets/font/Degular/Degular-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularBlackItalic';
+    src: local('DegularBlackItalic'), url('./assets/font/Degular/Degular-BlackItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularBold';
+    src: local('DegularBold'), url('../src/assets/font/Degular/Degular-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularBoldItalic';
+    src: local('DegularBoldItalic'), url('./assets/font/Degular/Degular-BoldItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularLight';
+    src: local('DegularLight'), url('./assets/font/Degular/Degular-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularLightItalic';
+    src: local('DegularLightItalic'), url('./assets/font/Degular/Degular-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMedium';
+    src: local('DegularMedium'), url('./assets/font/Degular/Degular-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMediumItalic';
+    src: local('DegularMediumItalic'), url('./assets/font/Degular/Degular-MediumItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularRegular';
+    src: local('DegularRegular'), url('./assets/font/Degular/Degular-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularRegularItalic';
+    src: local('DegularRegularItalic'), url('./assets/font/Degular/Degular-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularSemibold';
+    src: local('DegularSemibold'), url('./assets/font/Degular/Degular-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularSemiboldItalic';
+    src: local('DegularSemiboldItalic'), url('./assets/font/Degular/Degular-SemiboldItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularThin';
+    src: local('DegularThin'), url('./assets/font/Degular/Degular-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularThinItalic';
+    src: local('DegularThinItalic'), url('./assets/font/Degular/Degular-ThinItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplayBlack';
+    src: local('DegularDisplayBlack'), url('./assets/font/Degular/DegularDisplay-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplayBlackItalic';
+    src: local('DegularDisplayBlackItalic'), url('./assets/font/Degular/DegularDisplay-BlackItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplayBold';
+    src: local('DegularDisplayBold'), url('./assets/font/Degular/DegularDisplay-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplayBoldItalic';
+    src: local('DegularDisplayBoldItalic'), url('./assets/font/Degular/DegularDisplay-BoldItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplayLight';
+    src: local('DegularDisplayLight'), url('./assets/font/Degular/DegularDisplay-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplayLightItalic';
+    src: local('DegularDisplayLightItalic'), url('./assets/font/Degular/DegularDisplay-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplayMedium';
+    src: local('DegularDisplayMedium'), url('./assets/font/Degular/DegularDisplay-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplayMediumItalic';
+    src: local('DegularDisplayMediumItalic'), url('./assets/font/Degular/DegularDisplay-MediumItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplayRegular';
+    src: local('DegularDisplayRegular'), url('./assets/font/Degular/DegularDisplay-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplayRegularItalic';
+    src: local('DegularDisplayRegularItalic'), url('./assets/font/Degular/DegularDisplay-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplaySemibold';
+    src: local('DegularDisplaySemibold'), url('./assets/font/Degular/DegularDisplay-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplaySemiboldItalic';
+    src: local('DegularDisplaySemiboldItalic'), url('./assets/font/Degular/DegularDisplay-SemiboldItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplayThin';
+    src: local('DegularDisplayThin'), url('./assets/font/Degular/DegularDisplay-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularDisplayThinItalic';
+    src: local('DegularDisplayThinItalic'), url('./assets/font/Degular/DegularDisplay-ThinItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoBlack';
+    src: local('DegularMonoBlack'), url('./assets/font/Degular/DegularMono-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoBlackItalic';
+    src: local('DegularMonoBlackItalic'), url('./assets/font/Degular/DegularMono-BlackItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoBold';
+    src: local('DegularMonoBold'), url('./assets/font/Degular/DegularMono-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoBoldItalic';
+    src: local('DegularMonoBoldItalic'), url('./assets/font/Degular/DegularMono-BoldItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoLight';
+    src: local('DegularMonoLight'), url('./assets/font/Degular/DegularMono-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoLightItalic';
+    src: local('DegularMonoLightItalic'), url('./assets/font/Degular/DegularMono-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoMedium';
+    src: local('DegularMonoMedium'), url('./assets/font/Degular/DegularMono-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoMediumItalic';
+    src: local('DegularMonoMediumItalic'), url('./assets/font/Degular/DegularMono-MediumItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoRegular';
+    src: local('DegularMonoRegular'), url('./assets/font/Degular/DegularMono-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoRegularItalic';
+    src: local('DegularMonoRegularItalic'), url('./assets/font/Degular/DegularMono-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoSemibold';
+    src: local('DegularMonoSemibold'), url('./assets/font/Degular/DegularMono-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoSemiboldItalic';
+    src: local('DegularMonoSemiboldItalic'), url('./assets/font/Degular/DegularMono-SemiboldItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoThin';
+    src: local('DegularMonoThin'), url('./assets/font/Degular/DegularMono-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoThinItalic';
+    src: local('DegularMonoThinItalic'), url('./assets/font/Degular/DegularMono-ThinItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularMonoVariable';
+    src: local('DegularMonoVariable'), url('./assets/font/Degular/DegularMonoVariable.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DegularTextBlack';
+    src: local('DegularTextBlack'), url('./assets/font/Degular/DegularText-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularTextBlackItalic';
+    src: local('DegularTextBlackItalic'), url('./assets/font/Degular/DegularText-BlackItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularTextBold';
+    src: local('DegularTextBold'), url('./assets/font/Degular/DegularText-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularTextBoldItalic';
+    src: local('DegularTextBoldItalic'), url('./assets/font/Degular/DegularText-BoldItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularTextLight';
+    src: local('DegularTextLight'), url('./assets/font/Degular/DegularText-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularTextLightItalic';
+    src: local('DegularTextLightItalic'), url('./assets/font/Degular/DegularText-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularTextMedium';
+    src: local('DegularTextMedium'), url('./assets/font/Degular/DegularText-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularTextMediumItalic';
+    src: local('DegularTextMediumItalic'), url('./assets/font/Degular/DegularText-MediumItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularTextRegular';
+    src: local('DegularTextRegular'), url('./assets/font/Degular/DegularText-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularTextRegularItalic';
+    src: local('DegularTextRegularItalic'), url('./assets/font/Degular/DegularText-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularTextSemibold';
+    src: local('DegularTextSemibold'), url('./assets/font/Degular/DegularText-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularTextSemiboldItalic';
+    src: local('DegularTextSemiboldItalic'), url('./assets/font/Degular/DegularText-SemiboldItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularTextThin';
+    src: local('DegularTextThin'), url('./assets/font/Degular/DegularText-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularTextThinItalic';
+    src: local('DegularTextThinItalic'), url('./assets/font/Degular/DegularText-ThinItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DegularVariable';
+    src: local('DegularVariable'), url('./assets/font/Degular/DegularVariable.ttf') format('truetype');
+}

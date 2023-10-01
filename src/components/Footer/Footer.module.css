@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    margin-top: 5rem;
+    padding: 7rem 5rem;
+    border-top-right-radius: 135px;
+    border-top-left-radius: 135px;
+    opacity: 0.3px;
+    background-color: var(--black);
+    gap: 4rem;
+}
+
+.contentLg>img {
+    width: 17rem;
+}
+
+.imgs {
+    display: flex;
+    gap: 2rem;
+}
+
+.contentLg {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentLg>span {
+    font-family: 'DegularTextRegular';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    width: 70%;
+}
+
+.contentMd {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-top: 1.5rem;
+}
+
+.contentMd>span {
+    font-family: 'DegularTextRegular';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    width: 70%;
+}
+
+.contentMd>span:hover {
+    font-style: italic;
+    border-bottom: 2px solid var(--orange-500);
+    cursor: pointer;
+}
+
+.contentLg>button {
+    border: none;
+    background-color: var(--orange-500);
+    height: 53.19px;
+    border-radius: 26.77px;
+    margin-top: 2rem;
+    bottom: 5rem;
+    padding: 0 2rem;
+
+    font-family: 'DegularTextRegular';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.textCenter {
+    align-items: center;
+}
+
+.textCenter>span {
+    text-align: center;
+    width: 100%;
+}
+
+@media(max-width:1000px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 5rem;
+        opacity: 0.3px;
+        background-color: var(--black);
+        gap: 0rem;
+        padding: 3rem 2rem;
+
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+
+    .contentLg {
+        align-items: flex-start;
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .contentMd {
+        padding-top: 0rem;
+        width: 100%;
+    }
+
+    .contentLg>span {
+        text-align: left;
+    }
+}
